@@ -73,8 +73,3 @@ End-to-end pipeline ingesting multilingual fan comments, encoding them with mult
 - [Deep Learning Specialization — DeepLearning.AI / Coursera](https://www.coursera.org/account/accomplishments/specialization/3ETLXNOSF09L) *(Apr 2025)*
 
 ---
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kerolsfatouh&show_icons=true&theme=default&hide_title=true" height="150"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kerolsfatouh&theme=default" height="150"/>
-</p>
