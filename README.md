@@ -55,7 +55,7 @@ I'm an AI/ML Engineer based in Cairo, Egypt, specializing in **Computer Vision**
 
 #### [Edge AI Content Moderator & Behavioral Analysis System](https://github.com/Kerolsfatouh/ANIS-AI-deployment-pipeline)
 Privacy-first, on-device ML pipeline using a split Vision-Language Model (CLIP), cutting model footprint from 344 MB to 172 MB via encoder separation and FP16 optimization. Co-tuned vision and text encoders with LoRA (PEFT) using a Hybrid Multi-Task Learning objective (InfoNCE + BCE), improving F1-score from 80.72% to 82.50%. Deployed an LVLM (Qwen2.5-VL) as an automated AI safety auditor to clean a curated dataset of 21,340 images.
-`CLIP` `LoRA/PEFT` `ONNX` `Android Deployment` `FSM` `PCA/K-Medoids`
+`CLIP` `LoRA/PEFT` `ONNX` `qwen` `Tuning VLMS``VLMS` `PCA/K-Medoids`
 
 #### [Cloth Self-Supervised Contrastive Learning Pipeline](https://github.com/Kerolsfatouh/Constrictve-Learning-notebooks)
 Self-supervised representation learning on an unannotated clothing dataset using PyTorch Lightning + Lightly, with a ResNet18 backbone optimized via NT-Xent loss. Evaluated embedding quality with a KNN retrieval system for visual similarity search.
@@ -63,7 +63,7 @@ Self-supervised representation learning on an unannotated clothing dataset using
 
 #### [RAG-based-Platform-for-Sports-Fan-Communities](https://github.com/Kerolsfatouh/RAG-based-Platform-for-Sports-Fan-Communities) *(In Progress)*
 An asynchronous, hardware-optimized RAG pipeline that ingests and clusters multilingual social feeds using BGE-M3 and HDBSCAN. Features a quantized Qwen LLM engine (INT8) with dual-stage query routing for precise cross-lingual sentiment extraction, utilizing strict VRAM management and smart-caching for ultra-low latency on consumer GPUs.
-`BGE-M3` `HDBSCAN` `Quantized Qwen (INT8)` `FastAPI` `VRAM Optimization`
+`BGE-M3` `HDBSCAN` `UMP` `Quantized Qwen (INT8)` `FastAPI` `VRAM Optimization` 
 
 ---
 
