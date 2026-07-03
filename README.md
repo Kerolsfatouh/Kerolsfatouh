@@ -62,8 +62,8 @@ Self-supervised representation learning on an unannotated clothing dataset using
 `PyTorch Lightning` `ResNet18` `Contrastive Learning` `KNN Retrieval`
 
 #### [RAG-based-Platform-for-Sports-Fan-Communities](https://github.com/Kerolsfatouh/RAG-based-Platform-for-Sports-Fan-Communities) *(In Progress)*
-End-to-end pipeline ingesting multilingual fan comments, encoding them with multilingual Sentence-Transformers into a vector database, then clustering by topic (HDBSCAN) across languages/dialects and summarizing sentiment via an LLM — with ingestion decoupled from query-time retrieval for low latency.
-`Sentence-Transformers` `Vector DB` `HDBSCAN` `LLM Summarization`
+An asynchronous, hardware-optimized RAG pipeline that ingests and clusters multilingual social feeds using BGE-M3 and HDBSCAN. Features a quantized Qwen LLM engine (INT8) with dual-stage query routing for precise cross-lingual sentiment extraction, utilizing strict VRAM management and smart-caching for ultra-low latency on consumer GPUs.
+`BGE-M3` `HDBSCAN` `Quantized Qwen (INT8)` `FastAPI` `VRAM Optimization`
 
 ---
 
