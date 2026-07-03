@@ -61,7 +61,7 @@ Privacy-first, on-device ML pipeline using a split Vision-Language Model (CLIP),
 Self-supervised representation learning on an unannotated clothing dataset using PyTorch Lightning + Lightly, with a ResNet18 backbone optimized via NT-Xent loss. Evaluated embedding quality with a KNN retrieval system for visual similarity search.
 `PyTorch Lightning` `ResNet18` `Contrastive Learning` `KNN Retrieval`
 
-#### Real-Time Social Sentiment Analysis Platform for Sports Fan Communities *(In Progress)*
+#### [RAG-based-Platform-for-Sports-Fan-Communities](https://github.com/Kerolsfatouh/RAG-based-Platform-for-Sports-Fan-Communities) *(In Progress)*
 End-to-end pipeline ingesting multilingual fan comments, encoding them with multilingual Sentence-Transformers into a vector database, then clustering by topic (HDBSCAN) across languages/dialects and summarizing sentiment via an LLM — with ingestion decoupled from query-time retrieval for low latency.
 `Sentence-Transformers` `Vector DB` `HDBSCAN` `LLM Summarization`
 
